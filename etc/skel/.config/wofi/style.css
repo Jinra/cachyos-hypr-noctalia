@@ -3,25 +3,25 @@
 }
 
 window {
-    background-color: #007d6f; /* cachydgreen */
+    background-color: #007d6f; /* CACHYDGREEN */
 }
 
 #input {
     margin: 5px;
     border-radius: 0px;
     border: none;
-    background-color: #111826; /* cachydgreen */
-    color: #ffffffff; /* cachywhite */
+    background-color: #111826; /* CACHYDGREEN */
+    color: #ffffffff; /* CACHYWHITE */
 }
 
 #inner-box {
-    background-color: #111826; /* cachydblue */
+    background-color: #111826; /* CACHYDBLUE */
 }
 
 #outer-box {
     margin: 2px;
     padding: 10px;
-    background-color: #111826; /* cachydblue */
+    background-color: #111826; /* CACHYDBLUE */
 }
 
 #scroll {
@@ -30,15 +30,15 @@ window {
 
 #text {
     padding: 4px;
-    color: #ffffffff; /* cachywhite */
+    color: #ffffffff; /* CACHYWHITE */
 }
 
 #entry:nth-child(even){
-    background-color: #182545; /* cachymblue */
+    background-color: #182545; /* CACHYMBLUE */
 }
 
 #entry:selected {
-    background-color: #00aa84; /* cachymgreen */
+    background-color: #00aa84; /* CACHYMGREEN */
 }
 
 #text:selected {

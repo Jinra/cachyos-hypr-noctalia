@@ -4,15 +4,15 @@
 }
 
 window {
-	background-color: rgba(17, 24, 38, 0.9); /* cachydblue with alpha */
+	background-color: rgba(17, 24, 38, 0.9); /* CACHYDBLUE with alpha */
 }
 
 button {
     border-radius: 0;
-    border-color: #007d6f; /* cachydgreen */
-	text-decoration-color: #ffffff; /* cachywhite */
-    color: #ffffff; /* cachywhite */
-	background-color: #111826; /* cachydblue */
+    border-color: #007d6f; /* CACHYDGREEN */
+	text-decoration-color: #ffffff; /* CACHYWHITE */
+    color: #ffffff; /* CACHYWHITE */
+	background-color: #111826; /* CACHYDBLUE */
 	border-style: solid;
 	border-width: 1px;
 	background-repeat: no-repeat;
@@ -21,7 +21,7 @@ button {
 }
 
 button:focus, button:active, button:hover {
-	background-color: #00aa84; /* cachymgreen */
+	background-color: #00aa84; /* CACHYMGREEN */
 	outline-style: none;
 }
 

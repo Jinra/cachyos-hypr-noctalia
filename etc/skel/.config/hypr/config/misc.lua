@@ -4,7 +4,7 @@ hl.config({
     },
     misc = {
         col = {
-            splash = cachylgreen,
+            splash = CACHYLGREEN,
         },
         middle_click_paste = false,
         enable_swallow = true,
