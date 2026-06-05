@@ -15,6 +15,7 @@ local gamingWorkspace = "name:gaming"
 
 hl.window_rule({ match = { content = 3 }, workspace = gamingWorkspace })
 hl.window_rule({ match = { class = gamingApps }, workspace = gamingWorkspace })
+hl.window_rule({ match = { class = "^(steam)$", title = "^(Friends List)$" }, float = true })
 hl.window_rule({
     match = {
         class = "^(steam)$",
@@ -44,7 +45,6 @@ hl.window_rule({
     fullscreen       = false,
     fullscreen_state = 0,
 })
-hl.window_rule({ match = { class = "^(steam)$", title = "^(Friends List)$" }, float = true })
 
 -- Apps
 local primaryWorkspace = 1
