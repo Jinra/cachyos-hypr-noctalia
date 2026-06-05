@@ -17,6 +17,15 @@ hl.window_rule({ match = { content = 3 }, workspace = gamingWorkspace })
 hl.window_rule({ match = { class = gamingApps }, workspace = gamingWorkspace })
 hl.window_rule({
     match = {
+        class = "^(steam)$",
+        title = "^(Launching\\.\\.\\.)$"
+    },
+    float = true,
+    center = true,
+    workspace = gamingWorkspace,
+})
+hl.window_rule({
+    match = {
         class         = gamingApps,
         title         = "^(.+)$",
         initial_title = "negative:^(.*\\\\home\\\\.*)$",
