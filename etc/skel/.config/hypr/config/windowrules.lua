@@ -19,7 +19,7 @@ hl.window_rule({ match = { class = "^(steam)$", title = "^(Friends List)$" }, fl
 hl.window_rule({
     match = {
         class = "^(steam)$",
-        title = "^(Launching\\.\\.\\.)$"
+        title = "^(Launching\\.{3})$"
     },
     float     = true,
     center    = true,
